@@ -1,0 +1,48 @@
+.form-group {
+  width: 800px;
+  margin: 20px auto;
+}
+
+.form-title {
+  color: rgb(71, 76, 82);
+  font-weight: 300;
+}
+
+.form-list {
+  width: 800px;
+  /* margin-top: */
+}
+.form-list-element {
+  /* height: 70px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  /* background-color: #f1425d; */
+
+  border: 1px solid rgb(204, 203, 203);
+  margin: 10px;
+  border-radius: 8px;
+}
+.form-list-element__item{
+  /* padding: 30px; */
+  margin: 20px;
+}
+
+.form_list__content {
+  /* margin: auto; */
+  /* margin-top: 20px; */
+  text-align: center;
+  /* margin: auto inherit; */
+
+}
+
+.form_list__button {
+  /* align: center; */
+  height: 40px;
+  background-color: rgb(59, 59, 246);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}

@@ -1,0 +1,28 @@
+<div class="form-group form-list">
+  <h2 class="form-title">Contents</h2>
+
+  <div class="form-list-element"
+  *ngFor="let data of formData; let i = index"
+  [ngStyle]="{'background-color': i>=logItems ? 'blue' : 'inherit'}"
+  >
+    <p
+    class="form-list-element__item form_list__content"
+    [ngStyle]="{'color': i>=logItems ? 'white' : 'inherit'}"
+    >{{ data.content }}</p>
+    <p
+      class="form-list-element__item form_list__content"
+      *ngIf="formData[i].showSecret"
+      [ngStyle]="{'color': i>=logItems ? 'white' : 'inherit'}"
+    >
+      {{ data.secret }}
+    </p>
+    <button
+      class="form-list-element__item form_list__button"
+      [ngStyle]="{'background-color': i>=logItems ? 'white' : ' rgb(59, 59, 246)',
+      'color': i>=logItems   ? 'black' : 'white'}"
+      (click)="onShow($event, i)"
+    >
+      {{ !formData[i].showSecret ? "Show Details" : "Hide Details" }}
+    </button>
+  </div>
+</div>
