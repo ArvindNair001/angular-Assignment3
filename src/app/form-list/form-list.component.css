@@ -10,10 +10,8 @@
 
 .form-list {
   width: 800px;
-  /* margin-top: */
 }
 .form-list-element {
-  /* height: 70px; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -25,20 +23,14 @@
   border-radius: 8px;
 }
 .form-list-element__item{
-  /* padding: 30px; */
   margin: 20px;
 }
 
 .form_list__content {
-  /* margin: auto; */
-  /* margin-top: 20px; */
   text-align: center;
-  /* margin: auto inherit; */
-
 }
 
 .form_list__button {
-  /* align: center; */
   height: 40px;
   background-color: rgb(59, 59, 246);
   color: white;

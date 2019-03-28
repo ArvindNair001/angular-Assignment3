@@ -1,18 +1,20 @@
 <div class="form-group">
-    <h2 class="form-title">Add Content</h2>
-    <input type="text"
+  <h2 class="form-title">Add Content</h2>
+  <input
+    type="text"
     class="form-control"
     name="contentInput"
     [(ngModel)]="formContent"
     required
-    placeholder="Enter content">
-    <input type="text"
+    placeholder="Enter content"
+  />
+  <input
+    type="text"
     class="form-control"
     name="secretInputc"
     [(ngModel)]="formSecret"
     required
-    placeholder="Enter Secret Key">
-    <button
-    (click)="onAdd()"
-    class="btn btn-primary btn-form">Add</button>
+    placeholder="Enter Secret Key"
+  />
+  <button (click)="onAdd()" class="btn btn-primary btn-form">Add</button>
 </div>

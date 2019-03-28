@@ -5,6 +5,10 @@
 .form-control {
   margin-bottom: 10px;
 }
+.form-title {
+  color: rgb(71, 76, 82);
+  font-weight: 300;
+}
 .btn-form {
   width: 100%;
 }
